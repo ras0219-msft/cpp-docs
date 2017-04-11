@@ -43,7 +43,7 @@ translation.priority.mt:
 # file_status Class
 Wraps a [file_type](../standard-library/filesystem-enumerations.md#filesystem__file_type) and file [perms](../standard-library/filesystem-enumerations.md#filesystem__perms).  
   
-## Syntax  
+`## Syntax  
   
 ```cpp  
 class file_status;  
@@ -83,7 +83,7 @@ void type(file_type ftype) noexcept
   
 ## permissions  
   
-``cpp  
+```cpp  
 perms permissions() const noexcept  
 void permissions(perms mask) noexcept   
 ```  
